@@ -2,7 +2,6 @@ import React from "react";
 import tap from "../../../../Images/tap.png";
 import balloon from "../../../../Images/balloon.png";
 import socialMedia from "../../../../Images/social_media.png";
-import mainImg from "../../../../Images/main.jpg";
 
 import "./Nav.scss";
 
