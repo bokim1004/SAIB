@@ -1,0 +1,22 @@
+body {
+  margin-top: 170px;
+  margin-left: 0;
+
+  .mainImg {
+    position: relative;
+    background-image: url("../../Images/main.jpg");
+    background-size: cover;
+    width: 1905px;
+    height: 900px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: lighter;
+    margin-bottom: 90px;
+    margin-top: 92px;
+    padding-left: 2px;
+    color: #5d6078;
+  }
+}
