@@ -1,0 +1,105 @@
+footer {
+  width: 1905px;
+  height: 280px;
+
+  .footer {
+    height: 200px;
+    background-color: #fce8ec;
+    position: relative;
+
+    .inner {
+      width: 850px;
+      height: 190px;
+      margin-left: 500px;
+      position: relative;
+      .firstBox {
+        position: absolute;
+        top: 70px;
+        .firstList {
+          .name {
+            font-size: 12px;
+            line-height: 22px;
+            color: #c5768c;
+            letter-spacing: -0.5px;
+          }
+          .company {
+            color: #cca6b0;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 22px;
+          }
+        }
+        .secondList {
+          margin-top: -15px;
+          span {
+            font-size: 12px;
+            line-height: 22px;
+            color: #c5768c;
+            font-weight: 300;
+            letter-spacing: 0px;
+          }
+        }
+        p {
+          margin-top: -15px;
+          font-size: 12px;
+          line-height: 22px;
+          color: #c5768c;
+          font-weight: 300;
+          letter-spacing: 0px;
+        }
+      }
+      .secondBox {
+        position: absolute;
+        top: 120px;
+        .first {
+          span {
+            font-size: 12px;
+            line-height: 22px;
+            color: #cca6b0;
+            font-weight: 300;
+            letter-spacing: 0px;
+          }
+        }
+        .second {
+          margin-top: -15px;
+          span {
+            font-size: 12px;
+            line-height: 22px;
+            color: #cca6b0;
+            font-weight: 300;
+            letter-spacing: 0px;
+          }
+        }
+      }
+    }
+    img {
+      position: absolute;
+      left: 1100px;
+      bottom: 80px;
+    }
+  }
+
+  .promotion {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: 1905px;
+    height: 90px;
+    background-color: #292c49;
+    // position: relative;
+    box-shadow: 0px 3px 6px #1b224628;
+
+    .promote {
+      position: absolute;
+      left: 700px;
+      top: 10px;
+    }
+
+    .circle {
+      position: absolute;
+      left: 1750px;
+      top: 2px;
+    }
+  }
+}

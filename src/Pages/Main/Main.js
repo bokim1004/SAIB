@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./Components/Nav/Nav";
+import Footer from "./Components/Footer/Footer";
 import main1 from "../../Images/sectionImg1.png";
 import main2 from "../../Images/sectionImg2.png";
 import main3 from "../../Images/sectionImg3.png";
@@ -122,6 +123,7 @@ const Main = () => {
           <img src={instagram} alt="instaImg" />
         </div>
       </body>
+      <Footer />
     </>
   );
 };
