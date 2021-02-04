@@ -110,9 +110,9 @@ footer {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 415px) and (max-width: 767px) {
   footer {
-    width: 480px;
+    width: 415px;
     height: 300px;
 
     .footer {
@@ -121,7 +121,7 @@ footer {
       position: relative;
 
       .inner {
-        width: 280px;
+        width: 315px;
         height: 190px;
         margin-left: 60px;
 
@@ -147,6 +147,7 @@ footer {
           .secondList {
             margin-top: -15px;
             width: 200px;
+
             span {
               font-size: 11px;
               line-height: 22px;
