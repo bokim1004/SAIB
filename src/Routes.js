@@ -10,7 +10,7 @@ class Routes extends Component {
   render() {
     return (
       <Router>
-        <Route exact path="/" component={Main} />
+        <Route exact path="/SAIB" component={Main} />
         <Route exact path="/Nav" component={Nav} />
         <Route exact path="/Footer" component={Footer} />
       </Router>
