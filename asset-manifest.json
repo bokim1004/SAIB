@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SAIB/static/css/main.2ed478d9.chunk.css",
-    "main.js": "/SAIB/static/js/main.393ac677.chunk.js",
-    "main.js.map": "/SAIB/static/js/main.393ac677.chunk.js.map",
-    "runtime-main.js": "/SAIB/static/js/runtime-main.54750228.js",
-    "runtime-main.js.map": "/SAIB/static/js/runtime-main.54750228.js.map",
-    "static/js/2.13c98a9a.chunk.js": "/SAIB/static/js/2.13c98a9a.chunk.js",
-    "static/js/2.13c98a9a.chunk.js.map": "/SAIB/static/js/2.13c98a9a.chunk.js.map",
+    "main.js": "/SAIB/static/js/main.d9fad87e.chunk.js",
+    "main.js.map": "/SAIB/static/js/main.d9fad87e.chunk.js.map",
+    "runtime-main.js": "/SAIB/static/js/runtime-main.a35ea06f.js",
+    "runtime-main.js.map": "/SAIB/static/js/runtime-main.a35ea06f.js.map",
+    "static/js/2.3d56539a.chunk.js": "/SAIB/static/js/2.3d56539a.chunk.js",
+    "static/js/2.3d56539a.chunk.js.map": "/SAIB/static/js/2.3d56539a.chunk.js.map",
     "index.html": "/SAIB/index.html",
     "static/css/main.2ed478d9.chunk.css.map": "/SAIB/static/css/main.2ed478d9.chunk.css.map",
-    "static/js/2.13c98a9a.chunk.js.LICENSE.txt": "/SAIB/static/js/2.13c98a9a.chunk.js.LICENSE.txt",
+    "static/js/2.3d56539a.chunk.js.LICENSE.txt": "/SAIB/static/js/2.3d56539a.chunk.js.LICENSE.txt",
     "static/media/awards.883e1d72.png": "/SAIB/static/media/awards.883e1d72.png",
     "static/media/balloon.fcdde908.png": "/SAIB/static/media/balloon.fcdde908.png",
     "static/media/girls.db1b2893.png": "/SAIB/static/media/girls.db1b2893.png",
@@ -29,9 +29,9 @@
     "static/media/sectionImg4.1e1ef3d1.png": "/SAIB/static/media/sectionImg4.1e1ef3d1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.54750228.js",
-    "static/js/2.13c98a9a.chunk.js",
+    "static/js/runtime-main.a35ea06f.js",
+    "static/js/2.3d56539a.chunk.js",
     "static/css/main.2ed478d9.chunk.css",
-    "static/js/main.393ac677.chunk.js"
+    "static/js/main.d9fad87e.chunk.js"
   ]
 }
