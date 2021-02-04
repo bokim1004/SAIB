@@ -4,11 +4,15 @@ import Footer from "./Components/Footer/Footer";
 import main1 from "../../Images/sectionImg1.png";
 import main2 from "../../Images/sectionImg2.png";
 import main3 from "../../Images/sectionImg3.png";
+import main4 from "../../Images/sectionImg4.png";
 import midImg1 from "../../Images/midImg1.png";
+import responsive1 from "../../Images/responsive1.png";
+import responsive2 from "../../Images/responsive2.png";
 import dot from "../../Images/dot.png";
 import rating1 from "../../Images/rating1.png";
 import rating2 from "../../Images/rating2.png";
 import rating3 from "../../Images/rating3.png";
+import review from "../../Images/review.png";
 import dot2 from "../../Images/dot2.png";
 import girls from "../../Images/girls.png";
 import awards from "../../Images/awards.png";
@@ -48,13 +52,35 @@ const Main = () => {
                 <p className="price"> 12,900원</p>
               </li>
             </ul>
+            <div className="responsiveImg">
+              <div>
+                <img src={main3} alt="mainImg" />
+                <p className="line">더 얇고 안전한 세이브 신제품</p>
+                <p className="product">세이브 프리미엄 콘돔 리얼필(6pcs)</p>
+                <p className="price"> 12,900원</p>
+              </div>
+              <div>
+                <img src={main4} alt="mainImg" />
+                <p className="line">집에 두고 쓰기 좋은</p>
+                <p className="product">프리미엄 콘돔 대용량(24pcs)</p>
+                <div className="saleBox">
+                  <span className="salePrice"> 49,500원</span>
+                  <span className="sale">⟶ 42,100</span>
+                </div>
+              </div>
+            </div>
           </div>
           <button>SHOP 바로가기</button>
         </div>
         <div className="section2">
           <h2>OUR PROMISE</h2>
           <img src={midImg1} className="midImg" alt="midImg" />
+          <div className="phoneImg">
+            <img src={responsive1} className="phoneImg1" alt="midImg" />
+            <img src={responsive2} className="phoneImg2" alt="midImg" />
+          </div>
           <img src={dot} className="dot" alt="dot" />
+          <img src={review} className="review" alt="review" />
           <ul>
             <li>
               <img src={rating1} alt="rating" />
@@ -111,7 +137,7 @@ const Main = () => {
                 size="25"
                 color="#5d6078"
               />
-              <p className="describe">오프라인 판메처</p>
+              <p className="describe">오프라인 판매처</p>
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import tap from "../../../../Images/tap.png";
 import balloon from "../../../../Images/balloon.png";
 import socialMedia from "../../../../Images/social_media.png";
+import {AiOutlineMenu} from "react-icons/ai";
 
 import "./Nav.scss";
 
@@ -17,6 +18,7 @@ const Nav = () => {
       </div>
       <div className="navBar">
         <div className="inner">
+          <AiOutlineMenu className="line" size="25" color=" #3b3f56" />
           <ul className="firstBox">
             <li>ABOUT</li>
             <li>SHOP</li>

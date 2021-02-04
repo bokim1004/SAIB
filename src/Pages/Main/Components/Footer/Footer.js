@@ -1,8 +1,8 @@
 import React from "react";
-
 import socialM from "../../../../Images/socialM.png";
 import circle from "../../../../Images/circle.png";
 import promotion from "../../../../Images/promotion.png";
+import {AiOutlineUpCircle} from "react-icons/ai";
 import "./Footer.scss";
 const Footer = () => {
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <div className="secondBox">
             <p className="first">
-              <span>이용약관|개인정보취급방침|가이드</span>
+              <span>이용약관 | 개인정보취급방침 | 가이드</span>
             </p>
             <p className="second">
               <span>
@@ -43,6 +43,7 @@ const Footer = () => {
       <div className="promotion">
         <img src={promotion} className="promote" alt="promote" />
         <img src={circle} className="circle" alt="circle" />
+        <AiOutlineUpCircle className="arrow" size="65" color="#e8b0bf" />
       </div>
     </footer>
   );
