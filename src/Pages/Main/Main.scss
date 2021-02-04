@@ -74,6 +74,9 @@ body {
           }
         }
       }
+      .responsiveImg {
+        display: none;
+      }
     }
     button {
       width: 164px;
@@ -106,6 +109,9 @@ body {
     .midImg {
       margin: 50px 0 0 420px;
     }
+    .phoneImg {
+      display: none;
+    }
     .dot {
       width: 140px;
       height: 50px;
@@ -113,7 +119,9 @@ body {
       top: 700px;
       right: 920px;
     }
-
+    .review {
+      display: none;
+    }
     ul {
       display: flex;
       margin-top: 200px;
@@ -298,6 +306,368 @@ body {
     img {
       margin-left: 490px;
       margin-top: 60px;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    margin-top: 100px;
+    margin-left: 0;
+
+    .mainImg {
+      position: relative;
+      background-image: url("../../Images/main.jpg");
+      background-size: cover;
+      width: 480px;
+      height: 380px;
+    }
+
+    .section1 {
+      width: 480px;
+      height: 710px;
+      background: linear-gradient(#ffffff, #fdf0f3);
+      h2 {
+        font-size: 1.85rem;
+        line-height: 2rem;
+        margin-top: 50px;
+        margin-left: 130px;
+        font-weight: lighter;
+        color: #5d6078;
+      }
+
+      .innerBox {
+        width: 480px;
+        height: 440px;
+        // margin: 50px auto;
+        margin-left: -30px;
+        margin-top: 50px;
+        position: relative;
+
+        ul {
+          list-style: none;
+          display: flex;
+
+          li {
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+
+            img {
+              width: 220px;
+              height: 180px;
+            }
+            .line {
+              color: #797979;
+              font-size: 12px;
+              padding-top: 10px;
+            }
+            .product {
+              color: #282c49;
+              font-size: 14px;
+              margin-top: -10px;
+            }
+            .price {
+              color: #be4b78;
+              font-size: 14px;
+              line-height: 2em;
+              margin-top: -15px;
+            }
+            .saleBox {
+              margin-top: -10px;
+              .salePrice {
+                color: #282c49;
+                font-size: 14px;
+              }
+              .sale {
+                color: #be4b78;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+        .responsiveImg {
+          display: block;
+          display: flex;
+          margin-left: 40px;
+
+          div {
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+            img {
+              width: 220px;
+              height: 180px;
+            }
+
+            .line {
+              color: #797979;
+              font-size: 12px;
+              padding-top: 10px;
+            }
+            .product {
+              color: #282c49;
+              font-size: 14px;
+              margin-top: -10px;
+            }
+            .price {
+              color: #be4b78;
+              font-size: 14px;
+              line-height: 2em;
+              margin-top: -15px;
+            }
+            .saleBox {
+              margin-top: -10px;
+              width: 220px;
+              position: relative;
+              .salePrice {
+                color: #282c49;
+                font-size: 14px;
+                text-decoration: line-through;
+              }
+              .sale {
+                color: #be4b78;
+                font-size: 14px;
+                display: block;
+                position: absolute;
+                left: 55px;
+                top: -1px;
+              }
+            }
+          }
+        }
+      }
+      button {
+        width: 150px;
+        height: 40px;
+        background-color: #e7acbd;
+        color: #ffffff;
+        font-size: 16px;
+        position: absolute;
+        left: 150px;
+        top: 1170px;
+        border: 1px solid transparent;
+        line-height: 40px;
+        text-align: center;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+    .section2 {
+      width: 480px;
+      height: 1100px;
+      position: relative;
+      h2 {
+        font-size: 1.85rem;
+        line-height: 2rem;
+        margin-top: 50px;
+        margin-left: 150px;
+        font-weight: lighter;
+        color: #5d6078;
+      }
+      .midImg {
+        display: none;
+      }
+      .phoneImg {
+        display: flex;
+        flex-direction: column;
+      }
+      .dot {
+        display: none;
+      }
+      .review {
+        display: block;
+        width: 480px;
+      }
+
+      ul {
+        display: none;
+      }
+
+      .dot2 {
+        width: 80px;
+        height: 60px;
+        margin-left: 850px;
+        margin-top: 20px;
+      }
+    }
+
+    .section3 {
+      width: 480px;
+      height: 800px;
+      background-color: #fce8ec;
+
+      .head {
+        display: flex;
+        position: relative;
+
+        h2 {
+          font-size: 1.85rem;
+          line-height: 2rem;
+          margin-top: 50px;
+          margin-left: 150px;
+          font-weight: lighter;
+          color: #5d6078;
+        }
+        .arrow {
+          position: absolute;
+          top: 46px;
+          left: 300px;
+          width: 25px;
+        }
+      }
+      .inner {
+        width: 480px;
+        height: 445px;
+        margin-top: 45px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        img {
+          width: 480px;
+          height: 320px;
+        }
+
+        .textBox {
+          margin-left: 30px;
+          position: absolute;
+          top: 230px;
+          .title {
+            font-size: 50px;
+            line-height: 40px;
+            margin-top: 138px;
+            font-weight: bold;
+            color: #e7acbd;
+          }
+          .describe {
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+            width: 209px;
+            word-break: break-all;
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+    .section4 {
+      width: 480px;
+      height: 400px;
+      background-color: #ffffff;
+      .innerBox {
+        margin-left: 30px;
+        width: 480px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+
+        .first {
+          width: 420px;
+          height: 130px;
+          border-bottom: 1px solid #ebb2c0;
+          border-right: none;
+          position: relative;
+          .title {
+            font-size: 35px;
+            color: #3b3f56;
+          }
+          .arrow {
+            position: absolute;
+            left: 150px;
+            bottom: 60px;
+          }
+          .describe {
+            font-size: 18px;
+            color: #e7acbd;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+            margin-top: -30px;
+          }
+        }
+
+        .second {
+          width: 420px;
+          height: 130px;
+          border-bottom: 1px solid #ebb2c0;
+          border-right: none;
+          position: relative;
+          padding: 0;
+
+          .title {
+            font-size: 35px;
+            color: #3b3f56;
+          }
+          .arrow {
+            position: absolute;
+            left: 120px;
+            bottom: 65px;
+          }
+          .describe {
+            font-size: 18px;
+            color: #e7acbd;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+            margin-top: -30px;
+          }
+        }
+
+        .third {
+          width: 420px;
+          height: 130px;
+          position: relative;
+          padding: 0;
+          .title {
+            font-size: 35px;
+            color: #3b3f56;
+          }
+          .arrow {
+            position: absolute;
+            left: 170px;
+            bottom: 65px;
+          }
+          .describe {
+            font-size: 18px;
+            color: #e7acbd;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+            margin-top: -30px;
+          }
+        }
+      }
+    }
+    .section5 {
+      width: 480px;
+      height: 200px;
+      background-color: #fce8ec;
+
+      img {
+        width: 482px;
+        height: 190px;
+        margin-left: -10px;
+      }
+    }
+
+    .section6 {
+      width: 480px;
+      height: 450px;
+      background-color: #ffffff;
+      h2 {
+        font-size: 1.85rem;
+        line-height: 2rem;
+        margin-top: 50px;
+        margin-left: 70px;
+        font-weight: lighter;
+        color: #5d6078;
+      }
+      img {
+        width: 480px;
+        height: 300px;
+        margin-left: -1px;
+        margin-top: 10px;
+      }
     }
   }
 }
