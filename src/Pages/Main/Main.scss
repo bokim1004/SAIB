@@ -310,7 +310,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 415px) and (max-width: 767px) {
   body {
     margin-top: 100px;
     margin-left: 0;
@@ -319,43 +319,45 @@ body {
       position: relative;
       background-image: url("../../Images/main.jpg");
       background-size: cover;
-      width: 480px;
+      width: 415px;
       height: 380px;
     }
 
     .section1 {
-      width: 480px;
+      width: 415px;
       height: 710px;
       background: linear-gradient(#ffffff, #fdf0f3);
       h2 {
         font-size: 1.85rem;
         line-height: 2rem;
         margin-top: 50px;
-        margin-left: 130px;
+        margin-left: 110px;
         font-weight: lighter;
         color: #5d6078;
       }
 
       .innerBox {
-        width: 480px;
+        width: 415px;
         height: 440px;
         // margin: 50px auto;
-        margin-left: -30px;
+        margin-left: -38px;
         margin-top: 50px;
         position: relative;
 
         ul {
           list-style: none;
           display: flex;
-
+          li:nth-child(3) {
+            display: none;
+          }
           li {
             display: flex;
             flex-direction: column;
             margin-right: 20px;
 
             img {
-              width: 220px;
-              height: 180px;
+              width: 200px;
+              height: 160px;
             }
             .line {
               color: #797979;
@@ -396,8 +398,8 @@ body {
             flex-direction: column;
             margin-right: 20px;
             img {
-              width: 220px;
-              height: 180px;
+              width: 200px;
+              height: 160px;
             }
 
             .line {
@@ -454,14 +456,14 @@ body {
       }
     }
     .section2 {
-      width: 480px;
+      width: 415px;
       height: 1100px;
       position: relative;
       h2 {
         font-size: 1.85rem;
         line-height: 2rem;
         margin-top: 50px;
-        margin-left: 150px;
+        margin-left: 130px;
         font-weight: lighter;
         color: #5d6078;
       }
@@ -477,7 +479,7 @@ body {
       }
       .review {
         display: block;
-        width: 480px;
+        width: 415px;
       }
 
       ul {
@@ -493,7 +495,7 @@ body {
     }
 
     .section3 {
-      width: 480px;
+      width: 415px;
       height: 800px;
       background-color: #fce8ec;
 
@@ -517,7 +519,7 @@ body {
         }
       }
       .inner {
-        width: 480px;
+        width: 415px;
         height: 445px;
         margin-top: 45px;
         margin-left: 0;
@@ -526,7 +528,7 @@ body {
         position: relative;
 
         img {
-          width: 480px;
+          width: 415px;
           height: 320px;
         }
 
@@ -554,18 +556,18 @@ body {
       }
     }
     .section4 {
-      width: 480px;
+      width: 415px;
       height: 400px;
       background-color: #ffffff;
       .innerBox {
         margin-left: 30px;
-        width: 480px;
+        width: 415px;
         height: 580px;
         display: flex;
         flex-direction: column;
 
         .first {
-          width: 420px;
+          width: 400px;
           height: 130px;
           border-bottom: 1px solid #ebb2c0;
           border-right: none;
@@ -589,7 +591,7 @@ body {
         }
 
         .second {
-          width: 420px;
+          width: 400px;
           height: 130px;
           border-bottom: 1px solid #ebb2c0;
           border-right: none;
@@ -615,7 +617,7 @@ body {
         }
 
         .third {
-          width: 420px;
+          width: 400px;
           height: 130px;
           position: relative;
           padding: 0;
@@ -639,19 +641,19 @@ body {
       }
     }
     .section5 {
-      width: 480px;
+      width: 415px;
       height: 200px;
       background-color: #fce8ec;
 
       img {
-        width: 482px;
+        width: 417px;
         height: 190px;
         margin-left: -10px;
       }
     }
 
     .section6 {
-      width: 480px;
+      width: 415px;
       height: 450px;
       background-color: #ffffff;
       h2 {
@@ -663,7 +665,7 @@ body {
         color: #5d6078;
       }
       img {
-        width: 480px;
+        width: 415px;
         height: 300px;
         margin-left: -1px;
         margin-top: 10px;
