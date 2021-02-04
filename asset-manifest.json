@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/SAIB/static/css/main.2ed478d9.chunk.css",
+    "main.js": "/SAIB/static/js/main.393ac677.chunk.js",
+    "main.js.map": "/SAIB/static/js/main.393ac677.chunk.js.map",
+    "runtime-main.js": "/SAIB/static/js/runtime-main.54750228.js",
+    "runtime-main.js.map": "/SAIB/static/js/runtime-main.54750228.js.map",
+    "static/js/2.13c98a9a.chunk.js": "/SAIB/static/js/2.13c98a9a.chunk.js",
+    "static/js/2.13c98a9a.chunk.js.map": "/SAIB/static/js/2.13c98a9a.chunk.js.map",
+    "index.html": "/SAIB/index.html",
+    "static/css/main.2ed478d9.chunk.css.map": "/SAIB/static/css/main.2ed478d9.chunk.css.map",
+    "static/js/2.13c98a9a.chunk.js.LICENSE.txt": "/SAIB/static/js/2.13c98a9a.chunk.js.LICENSE.txt",
+    "static/media/awards.883e1d72.png": "/SAIB/static/media/awards.883e1d72.png",
+    "static/media/balloon.fcdde908.png": "/SAIB/static/media/balloon.fcdde908.png",
+    "static/media/girls.db1b2893.png": "/SAIB/static/media/girls.db1b2893.png",
+    "static/media/instagram.bd792d9e.png": "/SAIB/static/media/instagram.bd792d9e.png",
+    "static/media/Main.scss": "/SAIB/static/media/main.3ea1067b.jpg",
+    "static/media/midImg1.7c024c2b.png": "/SAIB/static/media/midImg1.7c024c2b.png",
+    "static/media/promotion.3790852d.png": "/SAIB/static/media/promotion.3790852d.png",
+    "static/media/rating1.ba15381f.png": "/SAIB/static/media/rating1.ba15381f.png",
+    "static/media/rating2.40b44798.png": "/SAIB/static/media/rating2.40b44798.png",
+    "static/media/rating3.31267da8.png": "/SAIB/static/media/rating3.31267da8.png",
+    "static/media/responsive1.f95c278f.png": "/SAIB/static/media/responsive1.f95c278f.png",
+    "static/media/responsive2.4d28a5e6.png": "/SAIB/static/media/responsive2.4d28a5e6.png",
+    "static/media/review.d605441f.png": "/SAIB/static/media/review.d605441f.png",
+    "static/media/sectionImg1.41089bf7.png": "/SAIB/static/media/sectionImg1.41089bf7.png",
+    "static/media/sectionImg2.6d9e6be0.png": "/SAIB/static/media/sectionImg2.6d9e6be0.png",
+    "static/media/sectionImg3.b15a6f77.png": "/SAIB/static/media/sectionImg3.b15a6f77.png",
+    "static/media/sectionImg4.1e1ef3d1.png": "/SAIB/static/media/sectionImg4.1e1ef3d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54750228.js",
+    "static/js/2.13c98a9a.chunk.js",
+    "static/css/main.2ed478d9.chunk.css",
+    "static/js/main.393ac677.chunk.js"
+  ]
+}
